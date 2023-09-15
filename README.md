@@ -29,7 +29,7 @@ iapManager.restoreProduct()
 ```
 /// 获取到可购买的商品数据
 func iapPayGotProducts(with productIds: [String]) {
-		self.productIds = productIds
+
 }
 /// 购买成功
 func iapPaySuccess(with productId: String, transactionIdentifier: String) {
